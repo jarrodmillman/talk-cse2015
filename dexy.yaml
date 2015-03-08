@@ -1,4 +1,4 @@
-.md|pandoc|l|hd|ft|jinja|latex:
+slides.md|pandoc|l|hd|ft|jinja|latex:
     - pandoc: { args: '-t beamer --highlight-style pygments' }
     - _*.tex:
         - output: False

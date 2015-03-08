@@ -1,0 +1,10 @@
+.md|pandoc|l|hd|ft|jinja|latex:
+    - pandoc: { args: '-t beamer --highlight-style pygments' }
+    - _*.tex:
+        - output: False
+    - slides.bib:
+        - output: False
+    - fig/*.png:
+        - output: False
+    - fig/*.pdf:
+        - output: False

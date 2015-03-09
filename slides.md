@@ -25,9 +25,15 @@ For abstracts and slides, please see:
 ## Teaching statistical computing to undergraduates
 
 - Context, motivation, and perspective
-    - History \cite{speed2013brief}
-    - Experience
+    - Historical background
+    - Personal experience
 - Issues, challenges, and questions 
+
+\vspace{10mm}
+
+For historical background, see \cite{speed2013brief}
+
+# History
 
 ## Jerzy Neyman (1894--1981)
 
@@ -83,18 +89,21 @@ For abstracts and slides, please see:
 
 ## Statistical teaching software and online materials
 
-- 1980's Berkeley Interactive Statistical System (BLss)
-- 1997-present SticiGui: Statistics Tools for Internet and Classroom
-- late 1990's R
-- 2010's Python
+- \textcolor{blue}{1980's} Berkeley Interactive Statistical System (BLss)
+- \textcolor{blue}{1997-present} SticiGui
+- \textcolor{blue}{late 1990's-present} R
+- \textcolor{blue}{2010-present} Python
+
+\vspace{10mm}
+R is primary language for research and training
 
 ## What is offered?
 
 Classes
 
-- Stat 133
-- Stat 243
-- Stat 159/259
+- Concepts in Computing with Data (133)
+- Introduction to Statistical Computing (243)
+- Reproducible and Collaborative Statistical Data Science (159/259)
 
 Bootcamps
 
@@ -102,7 +111,7 @@ Bootcamps
 
 Groups
 
-- BIDS, DLab, BITTS, Social computing, Hacker within, Py4science, etc.
+- BIDS, DLab, BITSS, Social computing, Hacker within, Py4science, etc.
 
 Other departments
 
@@ -110,14 +119,14 @@ Other departments
 
 
 
-## Stat 133 --- Computing with Data
+## Stat 133 --- Concepts in Computing with Data
 
 \begin{figure}[t]
 \centering
 \includegraphics[height=.8\textheight]{fig/stats.pdf}
 \end{figure}
 
-## Stat 133 --- Computing with Data
+## Stat 133 --- Concepts in Computing with Data
 
 \begin{figure}[t]
 \centering
@@ -125,9 +134,9 @@ Other departments
 \end{figure}
 
 \vspace{5mm}
-
+\begin{flushright}                           
 From \cite{nolan2010computing}
-
+\end{flushright}                           
 ---
 
 \begin{figure}[t]
@@ -136,7 +145,9 @@ From \cite{nolan2010computing}
 \end{figure}
 
 \vspace{5mm}
+\begin{flushright}
 See \cite{dijkstra1988cruelty}
+\end{flushright}
 
 ## Routine practice
 
@@ -147,7 +158,9 @@ See \cite{dijkstra1988cruelty}
 - Infrastructure
 
 \vspace{5mm}
+\begin{flushright}
 See \cite{millman2014developing}
+\end{flushright}
 
 ## Version control with Git
 
@@ -162,8 +175,8 @@ Required me to
 
 Required students to
 
-- work at commandline
 - install necessary software
+- work at commandline
 - work with text editor
 
 ## Workflow
@@ -199,7 +212,7 @@ tryCatch(
 
 ## Testing Python example
 
-~~~
+~~~ 
 dna_bases = ["A", "C", "G", "T"]
 
 def is_dna(dna):
@@ -241,12 +254,13 @@ From \cite{nolan2010computing}
 \includegraphics[height=.65\textheight]{fig/thinkingwithdata.png}
 \end{figure}
 
+\begin{flushright}
 From \cite{hardin2014data}
+\end{flushright}
 
 ## Trade-offs
 
 - Easy vs. simple
-- Creative vs. correct
 - Getting stuff done vs. getting stuff right
 - Doing what you know vs. knowing what to do
 

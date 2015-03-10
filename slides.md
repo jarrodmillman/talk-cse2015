@@ -234,8 +234,8 @@ def is_dna(dna):
 
 ## Lessons learned
 
-- Command line interface
 - Filesystem and data organization
+- Command line interface
 - Interpeter confusion
 - But it works (even though it doesn't run)
 - Google and random trial-and-error

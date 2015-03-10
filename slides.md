@@ -58,7 +58,10 @@ For historical background, see \cite{speed2013brief}
       \includegraphics[width=.8\textwidth]{fig/fix_evelyn2.png}
     \end{column}
     \begin{column}{0.5\textwidth}
-      computation for bombing accuracy
+      1942 led team of students and faculty wives
+       involving war effort \\
+       {\centering
+      \includegraphics[width=.6\textwidth]{fig/563px-Marchant_SilentSpeed-8D.png}}
     \end{column}
 \end{columns}
 
@@ -83,7 +86,8 @@ For historical background, see \cite{speed2013brief}
       \includegraphics[width=.8\textwidth]{fig/Leo_Breiman.png}
     \end{column}
     \begin{column}{0.5\textwidth}
-      statistical computing facility
+      1982 first VAX (11/750)\\
+      1986 statistical computing facility
     \end{column}
 \end{columns}
 

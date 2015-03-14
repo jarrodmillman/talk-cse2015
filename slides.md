@@ -2,12 +2,12 @@
 
 ## MS78: Teaching computational thinking and practice
 
-- What is the role of computational training in our various fields?
-- How can we scale training to meet demand?
-- What technologies, languages, principles, and practices should we teach?
-- What is the right balance between conceptual learning and hands-on training
+> - What is the role of computational training in our various fields?
+> - How can we scale training to meet demand?
+> - What technologies, languages, principles, and practices should we teach?
+> - What is the right balance between conceptual learning and hands-on training
   and practice?
-- More generally, how should we train the next generation of scientists,
+> - More generally, how should we train the next generation of scientists,
   statisticians, and engineers in computational methods and practices?
 
 ## MS78: Teaching computational thinking and practice
@@ -32,13 +32,19 @@ Classes
 - Introduction to Statistical Computing (243/244)
 - Reproducible and Collaborative Statistical Data Science (159/259)
 
+. . .
+
 Bootcamps
 
 - R, Python, Software carpentry, etc.
 
+. . .
+
 Groups
 
 - BIDS, DLab, BITSS, Social computing, Hacker within, Py4science, etc.
+
+. . .
 
 Other departments
 
@@ -68,6 +74,8 @@ curricula. The American Statistician, 64(2).
 \textbf{Goal:}  write \emph{valid, executable R programs} which I could
 run on my computer and behaved as specified
 
+. . .
+
 \vspace{10mm}
 
 \textbf{Problem:}  students \emph{lack context} for why this is important
@@ -87,20 +95,24 @@ and their past experience had \emph{poorly prepared} them
 - Everyone works on their own laptop
 - Extensive hands-on practice
 - Extensive use of Git
+- Running casestudy using Duke/Potti cancer trials
  
 ## The first week
 
-- Monday: Course overview and motivation
-- Tuesday: BASH, Git, and GitHub (Lab: Install)
-- Wednesday: Git
-- Thursday: R datastructures (Lab: Git)
-- Friday: More R (1st assignment)
+> - Monday: Course overview and motivation
+> - Tuesday: BASH, Git, and GitHub
+>     - Lab: Install
+> - Wednesday: R datastructures
+> - Thursday: More Git
+>     - Lab: Git
+> - Friday: More R
+>     - 1st homework assigned
 
 ## Working at the command line
 
 - Foreign to most students
 - Slow to embrace
-- Lectures were short and featured BASH heavily
+- Lectures were short and focused on live demos
 - Daily assignments
 
 ## Version control using Git and GitHub
@@ -109,10 +121,14 @@ Used for
 
 - homework, labs, quizzes, and exams
 
+. . .
+
 Required me to
 
 - teach Git
 - provide clear instructions
+
+. . .
 
 Required students to
 
@@ -126,7 +142,10 @@ Focused on
 
 - Datastructures (vectors, matrices, lists, dataframes)
 - Vectorized operations and the `apply` family
+- Using and writing functions
 - Exploratory data analysis (summary statistics, boxplots, PCA)
+
+. . .
 
 Introduced
 
@@ -150,7 +169,7 @@ tryCatch(
 )
 ~~~
 
-## Grading
+## Automating grading
 
 - Students submit work via Git
 - Pull from each repo
@@ -164,6 +183,7 @@ I do not trust myself to visually confirm the correctness of my own
 code.  Why should I trust a myself or a TA to evaluate student code?
 
 \vspace{5mm}
+. . .
 
 Moreover, automating the grading enabled me to:
 
@@ -178,6 +198,10 @@ Moreover, automating the grading enabled me to:
 - Test code correctness (did not use automated unit testing framework)
 - Allow resubmissions for first several assignments
 - Allow students to petition for a regrade (then regraded everyone)
+
+\vspace{10mm}
+
+\url{https://github.com/jarrodmillman/gradebook}
 
 ## Code quality vs. quantity
 
@@ -211,7 +235,7 @@ Moreover, automating the grading enabled me to:
 \includegraphics[height=.8\textheight]{fig/stats.pdf}
 \end{figure}
 
-## Statistics 159/259: Reproducible and Collaborative Statistical Data Science
+## Statistics 159/259 --- Reproducible and Collaborative Statistical Data Science
 
 A project-based introduction to statistical data analysis.
 Through case studies, computer laboratories, and a term project,
@@ -225,14 +249,4 @@ Software tools may include Bash, Git, Python, and LaTeX.
 ----
 
 \begin{center} \LARGE{Questions and discussion} \end{center}
-
-## Questions
-
-- What is the role of computational training in our various fields?
-- How can we scale training to meet demand?
-- What technologies, languages, principles, and practices should we teach?
-- What is the right balance between conceptual learning and hands-on training
-  and practice?
-- More generally, how should we train the next generation of scientists,
-  statisticians, and engineers in computational methods and practices?
 

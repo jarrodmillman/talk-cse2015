@@ -1,6 +1,6 @@
-# Introduction
+# Minisymposium overview
 
-## Teaching computational thinking and practice
+## MS78: Teaching computational thinking and practice
 
 - What is the role of computational training in our various fields?
 - How can we scale training to meet demand?
@@ -10,103 +10,26 @@
 - More generally, how should we train the next generation of scientists,
   statisticians, and engineers in computational methods and practices?
 
-## Teaching computational thinking and practice
+## MS78: Teaching computational thinking and practice
 
-After this introduction, we have
+After this, we have
 
-- Teaching with Version Control (Randall J. LeVeque)
-- Teaching data science from a computer science perspective: Experience from a first MOOC (Bill Howe)
-- Teaching Computing to Engineers (Lorena A. Barba)
+- Teaching with version control (Randall J. LeVeque)
+- Teaching computing to engineers (Lorena A. Barba)
+- Community discussion (Randall J. LeVeque)
 
-\vspace{5mm}
+\vspace{10mm}
 For abstracts and slides, please see:
 \url{http://www.jarrodmillman.com/siam2015.html}
 
-## Teaching statistical computing to undergraduates
+# Context, motivation, and perspective
 
-- Context, motivation, and perspective
-    - Historical background
-    - Personal experience
-- Issues, challenges, and questions 
-
-\vspace{10mm}
-
-For historical background, see \cite{speed2013brief}
-
-# History
-
-## Jerzy Neyman (1894--1981)
-
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.5\textwidth}
-      \centering
-      \includegraphics[width=.8\textwidth]{fig/Neyman_3.png}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      1933 Neyman-Pearson lemma\\
-      1937 confidence interval\\
-      1938 Statistics Laboratory\\
-      1955 Department founded\\
-    \end{column}
-\end{columns}
-
-## Evelyn Fix (1904--1965)
-
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.5\textwidth}
-      \centering
-      \includegraphics[width=.8\textwidth]{fig/fix_evelyn2.png}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      1942 led team of students and faculty wives
-       involving war effort \\
-       {\centering
-      \includegraphics[width=.6\textwidth]{fig/563px-Marchant_SilentSpeed-8D.png}}
-    \end{column}
-\end{columns}
-
-## David Freedman (1938--2008)
-
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.5\textwidth}
-      \centering
-      \includegraphics[width=.8\textwidth]{fig/freedman.png}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      Department's first computer
-    \end{column}
-\end{columns}
-
-
-## Leo Breiman (1928--2005)
-
-\begin{columns}[onlytextwidth]
-    \begin{column}{0.5\textwidth}
-      \centering
-      \includegraphics[width=.8\textwidth]{fig/Leo_Breiman.png}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      1982 first VAX (11/750)\\
-      1986 statistical computing facility
-    \end{column}
-\end{columns}
-
-## Statistical teaching software and online materials
-
-- \textcolor{blue}{1980's} Berkeley Interactive Statistical System (BLss)
-- \textcolor{blue}{1997-present} SticiGui
-- \textcolor{blue}{late 1990's-present} R
-- \textcolor{blue}{2010-present} Python
-
-\vspace{10mm}
-R is primary language for research and training
-
-## What is offered?
+## What training is offered?
 
 Classes
 
 - Concepts in Computing with Data (133)
-- Introduction to Statistical Computing (243)
+- Introduction to Statistical Computing (243/244)
 - Reproducible and Collaborative Statistical Data Science (159/259)
 
 Bootcamps
@@ -119,54 +42,68 @@ Groups
 
 Other departments
 
-- EECS, Biostatistics, Information science, etc.
+- EECS, Biostatistics, School of Information, etc.
 
-
-
-## Stat 133 --- Concepts in Computing with Data
-
-\begin{figure}[t]
-\centering
-\includegraphics[height=.8\textheight]{fig/stats.pdf}
-\end{figure}
-
-## Stat 133 --- Concepts in Computing with Data
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{fig/syllabus.png}
-\end{figure}
-
-\vspace{5mm}
-\begin{flushright}                           
-From \cite{nolan2010computing}
-\end{flushright}                           
 ---
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{fig/cruelty.png}
+\includegraphics[width=1\textwidth]{fig/homepage.png}
 \end{figure}
 
-\vspace{5mm}
-\begin{flushright}
-See \cite{dijkstra1988cruelty}
-\end{flushright}
+\url{http://www.jarrodmillman.com/stat133-summer2014}
 
-## Routine practice
+## What to cover?
 
-- **Version control with Git**
-- Process automation
-- **Testing**
-- Readability
-- Infrastructure
+\begin{figure}
+\centering
+\includegraphics[height=.65\textheight]{fig/venn.png}
+\end{figure}
 
-\vspace{5mm}
-\begin{flushright}
-See \cite{millman2014developing}
-\end{flushright}
+Nolan, D., & Lang, D. T. (2010). Computing in the statistics
+curricula. The American Statistician, 64(2).
 
-## Version control with Git
+## What did I want to accomplish?
+
+\textbf{Goal:}  write \emph{valid, executable R programs} which I could
+run on my computer and behaved as specified
+
+\vspace{10mm}
+
+\textbf{Problem:}  students \emph{lack context} for why this is important
+and their past experience had \emph{poorly prepared} them
+
+---
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=1\textwidth]{fig/topics1.png}
+\end{figure}
+
+## Class setup
+
+- Focus on students solving problems
+- Tables and chairs (not stadium seating)
+- Everyone works on their own laptop
+- Extensive hands-on practice
+- Extensive use of Git
+ 
+## The first week
+
+- Monday: Course overview and motivation
+- Tuesday: BASH, Git, and GitHub (Lab: Install)
+- Wednesday: Git
+- Thursday: R datastructures (Lab: Git)
+- Friday: More R (1st assignment)
+
+## Working at the command line
+
+- Foreign to most students
+- Slow to embrace
+- Lectures were short and featured BASH heavily
+- Daily assignments
+
+## Version control using Git and GitHub
 
 Used for
 
@@ -183,23 +120,22 @@ Required students to
 - work at commandline
 - work with text editor
 
-## Workflow
+## Basics of R programming
 
-1. Navigate to your stat133 directory (in Bash)
-2. Run the `git pull` command (in Bash)
-3. Make changes to the files (in your text editor)
-4. Save the changes you made (in your text editor)
-5. Run the `git add <filename>` command (in Bash)
-6. Run the `git commit -m "put some informative message here"` command (in Bash)
-7. Run the `git push` command (in Bash)
+Focused on
 
-## Why automate?
+- Datastructures (vectors, matrices, lists, dataframes)
+- Vectorized operations and the `apply` family
+- Exploratory data analysis (summary statistics, boxplots, PCA)
 
-- Assign and grade more student work
-- Reduce latency in providing feedback
-- Spend more time working directly with students  
+Introduced
 
-## Testing R example
+- Simulation and random number generation
+- Hypothesis testing
+- Clustering
+- Regression 
+
+## Simplified example assignment
 
 ~~~
 to_celcius <- function(temp) {
@@ -214,23 +150,43 @@ tryCatch(
 )
 ~~~
 
-## Testing Python example
+## Grading
 
-~~~ 
-dna_bases = ["A", "C", "G", "T"]
+- Students submit work via Git
+- Pull from each repo
+- Source the submitted R file
+- Test variables and functions
+- Push scores and logfiles to each repo
 
-def is_dna(dna):
-    """ Check whether input is a DNA string.
+## Why automate?
 
-    >>> is_dna("ATGATT")
-    True
-    >>> is_dna("ATGATU")
-    False
-    >>> is_dna("atgatt")
-    False
-    """
-    return NotImplemented
-~~~
+I do not trust myself to visually confirm the correctness of my own
+code.  Why should I trust a myself or a TA to evaluate student code?
+
+\vspace{5mm}
+
+Moreover, automating the grading enabled me to:
+
+- Assign and grade more student work
+- Reduce latency in providing feedback
+- Spend more time working directly with students  
+
+## How did I automate?
+
+- Wrote some Python code
+- Used RPy to work with R files
+- Test code correctness (did not use automated unit testing framework)
+- Allow resubmissions for first several assignments
+- Allow students to petition for a regrade (then regraded everyone)
+
+## Code quality vs. quantity
+
+- Program correctness baseline
+- Structured solutions
+- Code reviews
+- Office hours
+
+# Issues, challenges, and questions
 
 ## Lessons learned
 
@@ -240,33 +196,35 @@ def is_dna(dna):
 - But it works (even though it doesn't run)
 - Google and random trial-and-error
 
-# Issues, challenges, and questions 
+## What would I improve
 
-## Computing in the statistics curricula
+- Start with many mini-assignments
+- More focus on code review
+- More emphasis on group projects to increase amount of Git 
+- More practice fixing broken or poorly written code
+- More emphasis on concepts with short answer quizzes
 
-\begin{figure}
+## Stat 133 --- Concepts in Computing with Data
+
+\begin{figure}[t]
 \centering
-\includegraphics[height=.65\textheight]{fig/venn.png}
+\includegraphics[height=.8\textheight]{fig/stats.pdf}
 \end{figure}
 
-From \cite{nolan2010computing}
+## Statistics 159/259: Reproducible and Collaborative Statistical Data Science
 
-## Data Science in the Statistics Curricula
+A project-based introduction to statistical data analysis.
+Through case studies, computer laboratories, and a term project,
+students will learn practical techniques and tools
+for producing statistically sound and appropriate, reproducible, and verifiable
+computational answers to scientific questions.
+Course emphasizes version control, testing, process automation,
+code review, and collaborative programming.
+Software tools may include Bash, Git, Python, and LaTeX.
 
-\begin{figure}
-\centering
-\includegraphics[height=.65\textheight]{fig/thinkingwithdata.png}
-\end{figure}
+----
 
-\begin{flushright}
-From \cite{hardin2014data}
-\end{flushright}
-
-## Trade-offs
-
-- Easy vs. simple
-- Getting stuff done vs. getting stuff right
-- Doing what you know vs. knowing what to do
+\begin{center} \LARGE{Questions and discussion} \end{center}
 
 ## Questions
 
@@ -278,11 +236,3 @@ From \cite{hardin2014data}
 - More generally, how should we train the next generation of scientists,
   statisticians, and engineers in computational methods and practices?
 
-## References
-
-\bibliographystyle{apacite}
-\bibliography{slides}
-
-----
-
-\begin{center} \LARGE{Questions and discussion} \end{center}

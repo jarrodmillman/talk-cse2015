@@ -27,38 +27,36 @@
 }
 \makeatother
 
-\usepackage{apacite}
+\usepackage[notocbib]{apacite}
 
 % Pygments syntax highlighting codes
 << pygments['pastie.tex'] >>
 
-\title[Teaching] % (optional, only for long titles)
-{Teaching computational thinking and practice}
-\subtitle{Teaching statistical computing to undergraduates}
+\title[Teaching computing] % (optional, only for long titles)
+{Teaching statistical computing to undergraduates}
 \author[Millman, Stark] % (optional, for multiple authors)
-{K.~Jarrod~Millman\inst{1} \and Philip~B.~Stark\inst{2}}
-\institute[UC Berkeley] % (optional)
-{
-  \inst{1}%
-  Division of Biostatistics\\
-  UC Berkeley
-  \and
-  \inst{2}%
-  Department of Statistics\\
-  UC Berkeley
+{ K.~Jarrod~Millman\\
+{\tiny Division of Biostatistics, UC Berkeley}\\
+\vspace{5mm}
+Philip~B.~Stark\\
+{\tiny Department of Statistics, UC Berkeley}
 }
 \date[CSE 2015] % (optional)
-{SIAM Conference on Computational Science \& Engineering\\
-Sunday, March 15, 2015}
+{MS78: Teaching computational thinking and practice\\
+\vspace{5mm}
+\tiny{SIAM Conference on Computational Science \& Engineering\\
+Sunday, March 15, 2015}}
 \subject{Computer Science}
 
-%\AtBeginSection[]
-%{
-%  \begin{frame}<beamer>{Outline}
-%    \tableofcontents[currentsection]
-%  \end{frame}
-%}
+%\logo{\includegraphics[height=1cm]{fig/seal.png}}
 
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \begin{document}
 

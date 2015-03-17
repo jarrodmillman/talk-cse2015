@@ -66,8 +66,8 @@ Other departments
 \includegraphics[height=.65\textheight]{fig/venn.png}
 \end{figure}
 
-Nolan, D., & Lang, D. T. (2010). Computing in the statistics
-curricula. The American Statistician, 64(2).
+Nolan, D., & Temple Lang, D. (2010). Computing in the statistics
+curricula. \emph{The American Statistician}, 64(2).
 
 ## What did I want to accomplish?
 
@@ -95,7 +95,7 @@ and their past experience had \emph{poorly prepared} them
 - Everyone works on their own laptop
 - Extensive hands-on practice
 - Extensive use of Git
-- Running casestudy using Duke/Potti cancer trials
+- Running case study using Duke/Potti cancer trials
  
 ## The first week
 
@@ -156,16 +156,18 @@ Introduced
 
 ## Simplified example assignment
 
-~~~
-to_celcius <- function(temp) {
+~~~ 
+library(RUnit)
+
+to_celsius = function(temp) {
     # take a vector of Farenheit temperatures
-    # return a Celcius vector
+    # return a Celsius vector
 }
 
 tryCatch(
-    checkEquals(to_celcius(c(32, 100, 210)),
+    checkEquals(to_celsius(c(32, 100, 210)),
                 c(0, 340/9, 890/9)),
-    error = function(err) errmsg(err)
+    error = function(err) print(err)
 )
 ~~~
 
@@ -216,7 +218,7 @@ Moreover, automating the grading enabled me to:
 
 - Filesystem and data organization
 - Command line interface
-- Interpeter confusion
+- Interpreter confusion
 - But it works (even though it doesn't run)
 - Google and random trial-and-error
 
